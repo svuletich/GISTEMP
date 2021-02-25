@@ -1,0 +1,89 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">:unas</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">Hansen, James E.</creatorName>
+    <givenName>James</givenName>
+    <familyName>Hansen</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Schmidt, Gavin</creatorName>
+    <givenName>Gavin</givenName>
+    <familyName>Schmidt</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Reudy, Reto</creatorName>
+    <givenName>Reto</givenName>
+    <familyName>Reudy</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Lenssen, Nathan</creatorName>
+    <givenName>Nathan</givenName>
+    <familyName>Lenssen</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Menne, Matthew</creatorName>
+    <givenName>Matthew</givenName>
+    <familyName>Menne</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Persin, Avraham</creatorName>
+    <givenName>Avraham</givenName>
+    <familyName>Persin</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Zyss, Daniel</creatorName>
+    <givenName>Daniel</givenName>
+    <familyName>Zyss</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Hendrickson, Michael</creatorName>
+    <givenName>Michael</givenName>
+    <familyName>Hendrickson</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Lo, Ken</creatorName>
+    <givenName>Ken</givenName>
+    <familyName>Lo</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Sato, Makiko</creatorName>
+    <givenName>Makiko</givenName>
+    <familyName>Sato</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Organizational">Goddard Institute for Space Studies</creatorName>
+    <nameIdentifier>0000000122849855</nameIdentifier>
+    <nameIdentifierScheme schemeURI="https://www.isni.org/">ISNI</nameIdentifierScheme>
+  </creator>
+</creators>
+<titles>
+  <title xml:lang="en">Goddard Institute for Space Studies Surface Temperature Analysis (GISTEMP), version 4</title>
+  <title xml:lang="en" titleType="Alternative">GISTEMP</title>
+</titles>
+<publisher xml:lang="en">Goddard Institue for Space Studies</publisher>
+<publicationYear>2021</publicationYear>
+<subjects>
+  <subject xml:lang="en" subjectScheme="Library of Congress Subject Headings (LCSH)" schemeURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85055290">Global temperature changes</subject>
+  <subject xml:lang="en" subjectScheme="Library of Congress Subject Headings (LCSH)" schemeURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85027037">Climate changes</subject>
+  <subject xml:lang="en" subjectScheme="Library of Congress Subject Headings (LCSH)" schemeURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh89000812">Global warming</subject>
+  <subject xml:lang="en" subjectScheme="Library of Congress Subject Headings (LCSH)" schemeURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85040475">Earth temperature</subject>
+  <subject xml:lang="en" subjectScheme="Library of Congress Subject Headings (LCSH)" schemeURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh92004048">Environmental sciences</subject>
+  <subject xml:lang="en" subjectScheme="Library of Congress Subject Headings (LCSH)" schemeURI="http://id.loc.gov/authorities/subjects" valueURI="http://id.loc.gov/authorities/subjects/sh85040752"> Ecology</subject>
+</subjects>
+<contributors>
+  <contributor contributorType="DataCurator">
+    <contributorName nameType="Personal">Vuletich, Seth</contributorName>
+    <givenName>Seth</givenName>
+    <familyName>Vuletich</familyName>
+  </contributor>
+</contributors>
+<date dateType="Updated" dateInformation="GISTEMP contains temperature informationanomolies from the availability of reliable measurements beginning in 1880 through the most recent completed month.">1880-01-01/2021/01-31</date>
+<language>en</language>
+<relatedIdentifier relatedIdentifierType="DOI" relationType="IsDescribedBy">10.1029/2018JD029522</relatedIdentifier>
+<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+<version>4</version>
+<descriptions>
+  <description xml:lang="en" descriptionType="Abstract">GISTEMP is a dataset derived from the National Oceanic and Atmospheric Aadministration's (NOAA's) Global Historical Climatology Network (GHCN) and Extended Reconstructed Sea Surface Temperature (ERSST) datasets to explore temperature anomolies over the modern period of reliable temperature data collection, 1880-present. Temperature anomoly refers to the deviation from mean temperature over the 30 year period 1951-1980. GISTEMP v4 represents the 4th revision of the processes necessary to calculate these temperature anomolies. The first version of this dataset was created in 1981 by the now retired Dr. James E. Hansen. The project is currently led by Dr. Gavin Schmidt. GISTEMP is regularly updated to reflect the most recent completed month.</description>
+</descriptions>
+</resource>
