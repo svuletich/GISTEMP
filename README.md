@@ -10,14 +10,19 @@ GISTEMP was first initiated in 1979 by Dr. James E. Hansen as he grew concerned 
 Data are presented in table formats and the source code for the project is also available as a Python program.
 
 Files in this repository:
+
 •	GLB.Ts+dSST
   *	This CSV file contains average annual, monthly, and seasonal temperature anomalies for the entire Earth in degrees Celsius. For monthly mean temperature, the fields are  presented as 3 letter month codes, e.g. Jan for January, Feb for February, etc. The annual means are presented as January to December, J-D, and December to November, D-N. Lastly the seasonal mean temperatures are listed under DJF (December, January, and February) for winter, MAM (March, April, and May) for spring, JJA (June, July, and August) for summer, and SON (September, October, and November) for autumn. 
+
 •	NH.Ts+dSST
   *	This CSV file contains the average annual, monthly, and seasonal temperature anomalies for the entire Northern Hemisphere in degrees Celsius. For monthly mean temperature, the fields presented as 3 letter month codes, e.g. Jan for January, Feb for February, etc. The annual means are presented as January to December, J-D, and December to November, D-N. Lastly the seasonal mean temperatures are listed under DJF (December, January, and February) for winter, MAM (March, April, and May) for spring, JJA (June, July, and August) for summer, and SON (September, October, and November) for autumn. 
+ 
 •	SH.Ts+dSST
   *	This CSV file contains the average annual, monthly, and seasonal temperature anomalies for the entire Southern Hemisphere in degrees Celsius. For monthly mean temperature, the fields are presented as 3 letter month codes, e.g. Jan for January, Feb for February, etc. The annual means are presented as January to December, J-D, and December to November, D-N. Lastly the seasonal mean temperatures are listed under DJF (December, January, and February) for winter, MAM (March, April, and May) for spring, JJA (June, July, and August) for summer, and SON (September, October, and November) for autumn. 
+  
 •	ZonAnn.Ts+dSST
   *	This CSV file contains the average annual temperature anomalies for latitudinal zones in degrees Celsius. In addition to global (Glob) and hemispherical (NHem & Shem) zones, the zones are listed as ranges in degrees of latitude, e.g. 24N-90N represents the region between the 24th parallel North and the North Pole. 
+  
 •	GISTEMP4.0.tar
  *	This is the source code for GISTEMP. This python program adapted from the Fortran original requires the GHCN v4 and ERSST v5 datasets from NOAA’s National Centers for Environmental Information (NCEI) to calculate temperature anomalies on Earth as subdivided into 8000 equal-area cells. This produces far more granular data than the tables and can be more readily be applied to maps. This program is designed to run on a Unix-like system. 
 
