@@ -8,6 +8,12 @@ GISTEMP v4 is a dataset examining the changing temperature trends on Earth produ
 
 GISTEMP was first initiated in 1979 by Dr. James E. Hansen as he grew concerned about the potential for a rise in temperature due to anthropogenic greenhouse gasses. The basic methodology was to group station data into 80 equal area boxes and assesses the deviance from mean for that area. The current iteration groups these data into 8000 equal area boxes. The GISTEMP project has changed over time as more and better data has become available, but the project remains true to the initial goal of assessing global temperature rise. The project is currently led by Dr. Gavin Schmidt. For more information about the project, visit https://data.giss.nasa.gov/gistemp/ 
 
+To cite this dataset please be sure to update the date accessed and include the most recent scholarly publication from the GISTEMP team:
+
+GISTEMP Team, 2021: GISS Surface Temperature Analysis (GISTEMP), version 4. NASA Goddard Institute for Space Studies. Dataset accessed YYYY-MM-DD at https://data.giss.nasa.gov/gistemp/.
+Lenssen, N., G. Schmidt, J. Hansen, M. Menne, A. Persin, R. Ruedy, and D. Zyss. 2019. Improvements in the GISTEMP uncertainty model. J. Geophys. Res. Atmos., 124, no. 12, 6307-6326, doi:10.1029/2018JD029522.
+
+
 Data are presented in table formats and the source code for the project is also available as a Python program.
 
 Files in this repository:
@@ -26,4 +32,5 @@ Files in this repository:
   
 •	GISTEMP4.0.tar
  *	This is the source code for GISTEMP. This python program adapted from the Fortran original requires the GHCN v4 and ERSST v5 datasets from NOAA’s National Centers for Environmental Information (NCEI) to calculate temperature anomalies on Earth as subdivided into 8000 equal-area cells. This produces far more granular data than the tables and can be more readily be applied to maps. This program is designed to run on a Unix-like system. 
+
 
