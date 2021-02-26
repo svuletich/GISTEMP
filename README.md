@@ -1,5 +1,5 @@
 # GISTEMP
-This repository was created to store and share the Goddard Institute for Space Studies Surface Temperature Analysis (GISTemp) as a project for LIS 4220: Data Curation at the University of Denver 2021.
+This repository was created to store and share the Goddard Institute for Space Studies Surface Temperature Analysis (GISTEMP) as a project for LIS 4220: Data Curation at the University of Denver 2021.
 
 Goddard Institute for Space Studies Surface Temperature Analysis ver. 4 (GISTEMP v4)
 
