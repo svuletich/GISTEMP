@@ -1,7 +1,8 @@
 # GISTEMP
-This repository was created to store and share the Goddard Institute for Space Studies Surface Temperature Analysis (GISTEMP) as a project for LIS 4220: Data Curation at the University of Denver 2021.
 
 Goddard Institute for Space Studies Surface Temperature Analysis ver. 4 (GISTEMP v4)
+
+This repository was created to store and share the Goddard Institute for Space Studies Surface Temperature Analysis (GISTEMP) as a project for LIS 4220: Data Curation at the University of Denver 2021.
 
 GISTEMP v4 is a dataset examining the changing temperature trends on Earth produced through analysis of the National Oceanic and Atmospheric Administration’s (NOAA’s) 4th version of the Global Historical Climatology Network (GHCN v4) and fifth version of Extended Reconstructed Sea Surface Temperature (ERSST v5) datasets for land temperature and ocean temperature respectively. The GISTEMP data reflect temperature anomalies. In the case of this data, temperature anomaly refers to the deviation, in degrees Celsius, from the average temperature measured over the 30 year span from 1951 to 1980. The temporal coverage of this data is constrained by the availability of accurate measurement, 1880-present. 
 
