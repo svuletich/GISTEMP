@@ -2,7 +2,7 @@
 
 Goddard Institute for Space Studies Surface Temperature Analysis ver. 4 (GISTEMP v4)
 
-This repository was created by Seth Vuletich to store and share the Goddard Institute for Space Studies Surface Temperature Analysis vesrion 4 (GISTEMP v4) as a project for LIS 4220: Data Curation at the University of Denver 2021.
+This repository was created by Seth Vuletich to store and share the Goddard Institute for Space Studies Surface Temperature Analysis vesrion 4 (GISTEMP v4) as a project for LIS 4220: Data Curation at the University of Denver, Winter 2021.
 
 GISTEMP v4 is a dataset examining the changing temperature trends on Earth produced through analysis of the National Oceanic and Atmospheric Administration’s (NOAA’s) 4th version of the Global Historical Climatology Network (GHCN v4) and fifth version of Extended Reconstructed Sea Surface Temperature (ERSST v5) datasets for land temperature and ocean temperature respectively. The GISTEMP data reflect temperature anomalies. In the case of this data, temperature anomaly refers to the deviation, in degrees Celsius, from the average temperature measured over the 30 year span from 1951 to 1980. The temporal coverage of this data is constrained by the availability of accurate temperature measurement, 1880-present. Measurements from 1960-present are the most accurate with an uncertainty of +/- 0.05 degrees Celsius, though that uncertainty increases to +/- 0.1 degrees Celsius for seasonal means and +/- 0.17 degrees Celsius for monthly means.
 
@@ -21,6 +21,9 @@ Files in this repository:
 
 • GISTEMP_Metadata.xml
   * This XML file contains metadata about the GISTEMP dataset structured around the DataCite Metadata Schema 4.3. All known creators and contributors are listed and related resources are referenced via DOIs. Subject fields utilize Library of Congress Authorized Subject Headings (LCSH).
+
+• Term_Project_Write_Up.docx
+  * This DOCX file is the culminating write up for Seth Vuletich's term project, for which this Github repository was created, in LIS 4220: Data Curation at the University of Denver, Winter 2021. It examines the GISTEMP dataset and a potential repository to store it as well as a brief discussion of preservation concerns for these data.
 
 •	GLB.Ts+dSST
   *	This CSV file contains average annual, monthly, and seasonal temperature anomalies for the entire Earth in degrees Celsius. For monthly mean temperature, the fields are  presented as 3 letter month codes, e.g. Jan for January, Feb for February, etc. The annual means are presented as January to December, J-D, and December to November, D-N. Lastly the seasonal mean temperatures are listed under DJF (December, January, and February) for winter, MAM (March, April, and May) for spring, JJA (June, July, and August) for summer, and SON (September, October, and November) for autumn. 
