@@ -19,6 +19,9 @@ Data are presented in table formats and the source code for the project is also 
 
 Files in this repository:
 
+• GISTEMP_Metadata.xml
+  * This XML file contains metadata about the GISTEMP dataset structured around the DataCite Metadata Schema 4.3. All known creators and contributors are listed and related resources are referenced via DOIs. Subject fields utilize Library of Congress Authorized Subject Headings (LCSH).
+
 •	GLB.Ts+dSST
   *	This CSV file contains average annual, monthly, and seasonal temperature anomalies for the entire Earth in degrees Celsius. For monthly mean temperature, the fields are  presented as 3 letter month codes, e.g. Jan for January, Feb for February, etc. The annual means are presented as January to December, J-D, and December to November, D-N. Lastly the seasonal mean temperatures are listed under DJF (December, January, and February) for winter, MAM (March, April, and May) for spring, JJA (June, July, and August) for summer, and SON (September, October, and November) for autumn. 
 
